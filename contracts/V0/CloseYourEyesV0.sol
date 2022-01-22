@@ -13,8 +13,8 @@ import "../klaytn-contracts/ownership/Ownable.sol";
 contract CloseYourEyesV0 is KIP17Full, KIP17Mintable, KIP17MetadataMintable, KIP17Burnable, Ownable {
 	using Strings for uint256;
 
-	string TOKEN_NAME = "CYE Fatty ChuchuCAT Prequel";
-	string TOKEN_SYMBOL = "CYEFCP";
+	string TOKEN_NAME = "CYE ChuchuCAT V0";
+	string TOKEN_SYMBOL = "CYECV0";
 	uint256 MAX_NFT_SUPPLY = 8888;
 	string private _baseTokenURI;
 
